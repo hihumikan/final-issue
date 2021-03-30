@@ -1,0 +1,140 @@
+body {
+    font-size: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 400px;
+    margin: 100px;
+    text-align: center;
+}
+
+.clear {
+    color: aqua;
+}
+
+.title {
+    position: relative;
+    font-size: 50px;
+}
+
+.button_point {
+    width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.topUpper {
+    padding-top: 200px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 80px;
+    background-color: gray;
+}
+
+.active {
+    display: block;
+}
+
+.passive {
+    display: none;
+}
+
+.colorCode {
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+.ansNop{
+    margin:0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.ara-toOFF{
+    display:none;
+}
+.ara-toON{
+    display:block;
+}
+
+
+#target-button-1 {
+    /*  初期値は緑  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: none;
+}
+
+#target-button-2 {
+    /*  初期値は緑  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: none;
+}
+
+#target-button-3 {
+    /*  初期値は緑  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: none;
+}
+
+#target-button-4 {
+    /*  初期値は緑  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: none;
+}
+#target-button-8 {
+    /*  初期値は緑  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: none;
+}
+
+#target-button-7 {
+    /*  初期値は緑  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: none;
+}
+
+#target-button-6 {
+    /*  初期値は緑  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: none;
+}
+
+#target-button-5 {
+    /*  初期値は緑  */
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    border: none;
+}

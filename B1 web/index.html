@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loading.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/js/uikit-icons.min.js"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="alear-uuu"></div>
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">色コード当てるやつ</a>
+    </nav>
+    <div id="ready" class="active">
+        <div class="container">
+            <div class="title">
+                <h1>始める？</h1>
+            </div>
+            <div id="firstButton" class="button_point">
+                <button type="button" class="btn btn-primary btn-block">OK!</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <div id="question" class="passive">
+        <div class="colorCode">
+            <h1 id="test">
+            </h1>
+        </div>
+        <div class="topUpper">
+            <div id="js-items" class="d-flex justify-content-center">
+                <div class="m-2">
+                    <button data-index="1" type="button" id="target-button-1" class="btn btn-primary"
+                        onclick="msgDsp(1)"></button>
+                </div>
+                <div class="m-2">
+                    <button data-index="2" type="button" id="target-button-2" class="btn btn-primary"
+                        onclick="msgDsp(2)"></button>
+                </div>
+                <div class="m-2">
+                    <button data-index="3" type="button" id="target-button-3" class="btn btn-primary"
+                        onclick="msgDsp(3)"></button>
+                </div>
+                <div class="m-2">
+                    <button data-index="4" type="button" id="target-button-4" class="btn btn-primary"
+                        onclick="msgDsp(4)"></button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="m-2">
+                    <button data-index="1" type="button" id="target-button-5" class="btn btn-primary"
+                        onclick="msgDsp(5)"></button>
+                </div>
+                <div class="m-2">
+                    <button data-index="2" type="button" id="target-button-6" class="btn btn-primary"
+                        onclick="msgDsp(6)"></button>
+                </div>
+                <div class="m-2">
+                    <button data-index="3" type="button" id="target-button-7" class="btn btn-primary"
+                        onclick="msgDsp(7)"></button>
+                </div>
+                <div class="m-2">
+                    <button data-index="4" type="button" id="target-button-8" class="btn btn-primary"
+                        onclick="msgDsp(8)"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ara-toba-" class="passive">
+        <br>
+        <div class="alert alert-success" role="alert">
+            <div class="ansNop">
+                <h1 id="Collect">
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div id="ara-toba-2" class="passive">
+        <div class="alert alert-danger" role="alert">
+            <div class="ansNop">
+                <h1 id="Nope">
+                </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <h2></h2>
+                <div class="uk-flex-left uk-margin-top">
+                    <div>
+                        <h3>by hihumikan</h3>
+                    </div>
+                    <a href="" class="uk-icon-button" uk-icon="github"></a>
+                    <a href="" class="uk-icon-button" uk-icon="twitter"></a>
+                </div>
+                <small class="d-block mb-3 text-muted uk-margin-small-top">copyright&copy; 2021, vue.jsマスター出来なかった株式会社
+                    Reactマスターしたい開発部,
+                    色コード当てるやつ, All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
